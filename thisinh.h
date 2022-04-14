@@ -12,6 +12,9 @@ protected:
     string hoTen;
     string diaChi;
     string mucUuTien;
+    string monThi1;
+    string monThi2;
+    string monthi3;
 
 public:
     ThiSinh();

@@ -8,8 +8,8 @@ ThiSinh::ThiSinh()
 void ThiSinh::nhapThongTin(){
     cout << "Nhap ho ten: "; getline(cin, hoTen);
     cout << "Nhap so bao danh: "; cin >> soBaoDanh;
-//    fflush(stdin);
-    cout << "\nNhap dia chi: "; getline(cin, diaChi);
+    fflush(stdin);
+    cout << "Nhap dia chi: "; getline(cin, diaChi);
     cout << "Nhap muc uu tien: "; getline(cin, mucUuTien);
 }
 

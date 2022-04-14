@@ -20,5 +20,5 @@ void KhoiA::nhapThongTin(){
 
 void KhoiA::hienThiThongTin(){
     ThiSinh::hienThiThongTin();
-    cout << "To hop mon thi:" << monThi1 << "-" << monThi2 << "-" << "monThi3" << endl;
+    cout << "To hop mon thi:" << monThi1 << "-" << monThi2 << "-" << monThi3 << endl;
 }

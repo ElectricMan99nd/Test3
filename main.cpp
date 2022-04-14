@@ -1,8 +1,16 @@
-#include <QCoreApplication>
+#include "TuyenSinh.h"
 
-int main(int argc, char *argv[])
-{
-    QCoreApplication a(argc, argv);
+int main(){
+    int soBaoDanh;
+    TuyenSinh *tuyenSinh = new TuyenSinh();
+    cout << "-------Nhap danh sach thi sinh-------" << endl;
+    tuyenSinh->nhapThongTinThiSinh();
+    cout << "Nhap so bao danh cua thi sinh can tim: ";
+    cin >> soBaoDanh;
+    tuyenSinh->timKiemThiSinh(soBaoDanh);
 
-    return a.exec();
+    if(tuyenSinh != NULL){
+        delete tuyenSinh;
+        tuyenSinh = NULL;
+    }
 }
